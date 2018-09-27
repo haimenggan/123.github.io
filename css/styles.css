@@ -1198,6 +1198,39 @@ margin-bottom:0 !important;
 
 @media screen and (max-width: 600px) {
 
+  .page-banner{
+        text-align: center;
+        position: relative;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .projectDescription{
+      font-size: 1.1em;
+      font-weight: 400;
+      margin:0% 0% 0% 0%;
+      color: #bababa;
+      font-weight:lighter;
+      font-stretch: semi-expanded;
+    }
+    
+    .projectName{
+      padding-top: 5%;
+      margin-top: 5%;
+      font-size: 1.8em;
+      font-weight: 400;
+      margin: 18% 0% 0% 0%;
+      color:#222222;
+      font-weight:bold;
+      font-stretch: semi-expanded;
+      line-height:1em;
+    }
+
+      img[src="../assets/credible_cosigner/xinno1.png"]{
+      display: block;
+      margin-left: 0px ;
+      width: 100%;
+    }
+
 .two-column > * {
     display: block;
     width: auto;
