@@ -108,3 +108,17 @@ function showSlides() {
 }
 var animationEndState = [{ x: -110, y: -200, scale: 3, rotate: 80 }, { x: 140, y: -200, scale: 3, rotate: 60 }, { x: -200, y: 300, scale: 3, rotate: -60 }, { x: 110, y: 200, scale: 3, rotate: 0 }, { x: -510, y: -300, scale: 2, rotate: 0 }, { x: -310, y: 0, scale: 2, rotate: 80 }, { x: 710, y: 200, scale: 2, rotate: -100 }, { x: 310, y: -100, scale: 2, rotate: -100 }];
 //# sourceMappingURL=scripts.js.map
+
+// Return to top
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(0);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
