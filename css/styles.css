@@ -369,16 +369,16 @@ img[src="../assets/credible_cosigner/led2.png"]{
 
 .unorderedList{
     font-family: 'Archivo', sans-serif;
-    font-weight: 300;
-    letter-spacing: .06em;
-    line-height: 1.9em;
+    font-weight: normal;
+    letter-spacing: 0.04em;
+    line-height: 2em;
     width: 100%;
     padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #222222;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 ul{
@@ -389,10 +389,10 @@ ul{
 .unorderList{
   font-family: 'Archivo', sans-serif;
   color: #222222;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing:.06em;
-  line-height: 1.9em;
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing:.04em;
+  line-height: 2em;
 }
 
 
@@ -1153,7 +1153,7 @@ margin-bottom:0 !important;
   padding-bottom:2%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .draw-border:hover::before, .draw-border:hover::after {
     border-color: #fff;
     transition: border-color 0s, width 0.25s, height 0.25s;
@@ -1182,17 +1182,17 @@ margin-bottom:0 !important;
 
 .drawBorder{
   text-align: center;
-    padding-bottom: 5%;
-    padding-top: 10%;
+    padding-bottom: 0%;
+    padding-top: 2%;
   }
 .drawBorder1{
-    margin-top: 10%;
+    margin-top: 1%;
     margin-bottom: 0%;
     float: none;
   }
   .drawBorder2{
     margin-top: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
    float: none;
   }
 
@@ -1212,7 +1212,7 @@ margin-bottom:0 !important;
       font-weight:lighter;
       font-stretch: semi-expanded;
     }
-    
+
     .projectName{
       padding-top: 5%;
       margin-top: 5%;
@@ -1230,6 +1230,42 @@ margin-bottom:0 !important;
       margin-left: 0px ;
       width: 100%;
     }
+
+
+
+    img[src="../assets/credible_cosigner/colorPalette.png"]{
+      display: block;
+      margin-right: 10% ;
+      width: 100%;
+    }
+
+    img[src="../assets/credible_cosigner/signatureboard.png"]{
+      width: 100%;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    img[src="../assets/credible_cosigner/namebadges.png"]{
+      width: 100%;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-bottom: 5%;
+    }
+
+    img[src="../assets/credible_cosigner/led1.png"]{
+      width: 100%;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-bottom: 5%;
+    }
+
+    img[src="../assets/credible_cosigner/led2.png"]{
+      width: 100%;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-bottom: 5%;
+    }
+
 
 .two-column > * {
     display: block;
