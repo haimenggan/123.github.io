@@ -35,53 +35,6 @@ a{
   cursor: pointer;
 }
 
-/*Return to top button  */
-#return-to-top {
-    position: fixed;
-    bottom: 4em;
-    right: 4em;;
-    background: rgb(0, 0, 0);
-    background: #fff;
-    opacity: 0.8;
-    width: 0px;
-    height: 0px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 320px;
-    border-radius: 20px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top i {
-    color: #005EFE;
-    margin: 0;
-    position: relative;
-    opacity: 1;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-/* #return-to-top:hover {
-    background: #005EFE;
-    opacity: 1;
-} */
-
-#return-to-top:hover i {
-    color: #ffe593;
-    top: 3px;
-    opacity: 1;
-}
-
 
 /* draw border */
 .draw-border {
