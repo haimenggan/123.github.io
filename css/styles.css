@@ -30,7 +30,7 @@ html, body{
 a{
   text-decoration: none;
   color: inherit;
-  opacity: .8;
+  opacity: 1;
   transition: .2s opacity ease;
   cursor: pointer;
 }
@@ -213,7 +213,7 @@ a{
 }
 .footer-home-forward{
     text-align: center;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Archivo', sans-serif;
     font-size: 18px;
     color: #0C172D;
     line-height: 32px;
@@ -491,6 +491,13 @@ ul{
   font-weight: bolder;
   letter-spacing: 0.03em;
   text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+._primary-link:hover {
+    text-decoration: none;
+    opacity:1;
+    color:#ffe593;
 }
 
 ._primary-link:after{
@@ -552,10 +559,15 @@ ul{
 .site-nav > .item{
   font-family: 'Archivo', sans-serif;
   display: inline-block;
-  font-size: 1.1em;
-  letter-spacing: 0.05em;
+  font-size: 1.2em;
+  letter-spacing: 0.03em;
   /* font-weight: bolder; */
   margin: 8px 20px;
+}
+.site-nav > .item:hover {
+    text-decoration: none;
+    opacity:1;
+    color:#ffe593;
 }
 
 .site-header.-collapse{
@@ -640,9 +652,8 @@ margin-bottom:0 !important;
 /* ---------------- site footer ---------------- */
 
 .site-footer{
-  margin: 100px 10px 20px;
+  margin: 30px 10px 30px;
   text-align: center;
-  font-size: 12.8px;
   font-size: .8rem;
 }
 
@@ -741,7 +752,8 @@ margin-bottom:0 !important;
 
 
 .home-project-content > .type{
-  font-size: 1em;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.2em;
   color: #005efe;
   letter-spacing: .03em;
   /* text-transform: uppercase; */
@@ -749,6 +761,7 @@ margin-bottom:0 !important;
 }
 
 .home-project-content .title{
+  font-family: 'Archivo', sans-serif;
   font-size: 1.3em;
   line-height: 1.2
 }
