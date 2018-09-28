@@ -35,6 +35,17 @@ a{
   cursor: pointer;
 }
 
+/*  Typing*/
+
+.typeContainer {
+	/* height: 100px; */
+  margin-bottom: 2em;
+}
+.typed-cursor {
+	display: none;
+}
+
+
 
 /* draw border */
 .draw-border {
@@ -90,7 +101,7 @@ a{
   color: #005EFE;
 }
 .btn:focus {
-  outline: 2px dotted #55d7dc;
+  outline: 3px dotted #ffe593;
 }
 
 .drawBorder{
@@ -476,6 +487,8 @@ ul{
   font-family: 'Archivo', sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
+  font-size: 2.5em;
+
 }
 
 .js-img-preview{
@@ -569,6 +582,7 @@ ul{
     opacity:1;
     color:#ffe593;
 }
+
 
 .site-header.-collapse{
   box-shadow: 0 0 5px #ddd;
@@ -888,7 +902,7 @@ margin-bottom:0 !important;
   margin: 0 auto 50px;
   width: 90%;
   max-width: 320px;
-  background-image: linear-gradient(to bottom, #fff 45%, #005EFE 46%, #005EFE 54%, #fff 55%)
+  /* background-image: linear-gradient(to bottom, #fff 45%, #005EFE 46%, #005EFE 54%, #fff 55%) */
 }
 
 .home-contacts > .title-line-container > .title{
