@@ -34,7 +34,16 @@ a{
   transition: .2s opacity ease;
   cursor: pointer;
 }
+/* Typing */
+.typeContainer {
+	/* height: 100px; */
+	margin-bottom: 1rem;
+  font-size: 2.2em;
+}
 
+.typed-cursor {
+	display: none;
+}
 
 /* draw border */
 .draw-border {
@@ -697,8 +706,8 @@ margin-bottom:0 !important;
 }
 
 .home-intro{
-  padding: 240px 0 8% 1.9%;
-  /* padding: 15rem 10% 20%; */
+  /* padding: 240px 0 8% 1.9%; */
+  padding: 18rem 6% 10% 6%;
   position: relative
 }
 
@@ -709,15 +718,15 @@ margin-bottom:0 !important;
 .home-intro > .title:after{
   display: block;
   content: '';
-  width: 120px;
+  width: 150px;
   height: 3px;
-  margin: 20px 0;
+  margin: 10px 0;
   background: #005EFE
 }
 
 .home-intro > .description{
   margin: 0;
-  font-size: 1.2em
+  font-size: 1.4em
 }
 
 .home-project{
@@ -727,7 +736,7 @@ margin-bottom:0 !important;
   -webkit-box-align: center;
           align-items: center;
   position: relative;
-  padding-top: 11em;
+  padding-top: 12em;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center
@@ -741,7 +750,7 @@ margin-bottom:0 !important;
 .home-project > div{
   -webkit-box-flex: 1;
           flex: 1 1 50%;
-  width: 50%;
+  width: 40%;
   padding: 20px
 }
 
@@ -888,7 +897,7 @@ margin-bottom:0 !important;
   margin: 0 auto 50px;
   width: 90%;
   max-width: 320px;
-  background-image: linear-gradient(to bottom, #fff 45%, #005EFE 46%, #005EFE 54%, #fff 55%)
+  /* background-image: linear-gradient(to bottom, #fff 45%, #005EFE 46%, #005EFE 54%, #fff 55%) */
 }
 
 .home-contacts > .title-line-container > .title{
