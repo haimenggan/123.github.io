@@ -1076,6 +1076,7 @@ margin-bottom:0 !important;
 }
 
 .flying-bg{
+  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1238,6 +1239,22 @@ font-weight: 500;
   max-width: 1280px;
   padding: 0 60px;
   margin: 0 auto;
+}
+
+.home-project-preview.-desktop > .frame, .home-project-preview.-desktop > .frame-shadow{
+  transform: translateX(-50%) scale(1.32);
+  width: 100%;
+  top: 9%;
+}
+
+.home-project-preview.-desktop > .screen {
+    width: 100%;
+    transform: translateX(0%);
+}
+
+
+.flying-bg{
+display:none;
 }
 
 
@@ -1677,7 +1694,7 @@ body,
 @media screen and (max-width: 600px){
   /**************** header *****************/
   .site-header > .container{
-    padding: 12px;
+    padding: 12px 0px 12px 12px;
   }
   .site-header.-collapse > .container{
     padding: 6px 16px;
