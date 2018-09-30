@@ -574,6 +574,7 @@ ul{
   letter-spacing: 0.03em;
   /* font-weight: bolder; */
   margin: 8px 20px;
+  text-decoration: none;
 }
 .site-nav > .item:hover {
     text-decoration: none;
@@ -582,11 +583,12 @@ ul{
 }
 
 .site-header.-collapse{
+  text-shadow: none;
   box-shadow: 0 0 5px #ddd;
   background: #fff
-}
+} */
 
-.site-header.-collapse > .container{
+/* .site-header.-collapse > .container{
   padding: 8px 60px;
 }
 
@@ -708,7 +710,7 @@ margin-bottom:0 !important;
 }
 
 .intro{
-    padding: 8rem 0% 74% 0%;
+    padding: 8rem 0% 66% 0%;
 }
 .home-intro{
   /* padding: 240px 0 8% 1.9%; */
@@ -1699,9 +1701,10 @@ body,
   .site-header > .container{
     padding: 12px 0px 12px 12px;
   }
-  .site-header.-collapse > .container{
-    padding: 6px 16px;
-  }
+
+  /* .site-header.-collapse > .container{
+    padding: 12px 0px 12px 12px;
+  } */
   .site-nav > .item{
     margin: 0 8px;
     letter-spacing: .01em;
