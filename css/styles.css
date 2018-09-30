@@ -37,8 +37,8 @@ a{
 /* Typing */
 .typeContainer {
 	/* height: 100px; */
-	margin-bottom: 1rem;
-  font-size: 2.2em;
+	margin-bottom: .2em;
+  font-size: 2.3em;
 }
 
 .typed-cursor {
@@ -117,7 +117,9 @@ a{
  float: right;
 }
 
-
+.mobiledescription{
+  display:none;
+}
 
 
 /* Sweep To Left */
@@ -705,9 +707,12 @@ margin-bottom:0 !important;
   max-width: 600px;
 }
 
+.intro{
+    padding: 0rem 0% 10% 0%;
+}
 .home-intro{
   /* padding: 240px 0 8% 1.9%; */
-  padding: 18rem 6% 10% 6%;
+  padding: 16rem 4% 20% 4%;
   position: relative
 }
 
@@ -724,9 +729,9 @@ margin-bottom:0 !important;
   background: #005EFE
 }
 
-.home-intro > .description{
+.description{
   margin: 0;
-  font-size: 1.4em
+  font-size: 1.4em !important;
 }
 
 .home-project{
@@ -774,6 +779,9 @@ margin-bottom:0 !important;
   font-size: 1.3em;
   line-height: 1.2
 }
+
+
+
 
 .home-project-info{
   display: -webkit-box;
@@ -1221,6 +1229,91 @@ margin-bottom:0 !important;
   }
 
 @media screen and (max-width: 600px) {
+.site-nav > .item{
+font-size: 16px;
+font-weight: 500;
+}
+._body-width{
+  width: 87%;
+  max-width: 1280px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+
+.mobileTitle{
+  display:block;
+  font-family: 'Karla', sans-serif;
+  letter-spacing:0.009em;
+  font-size: 1em;
+  line-height: 1.1;
+  /* text-align:center; */
+      color: #005EFE
+}
+
+
+.description{
+display:none;
+}
+
+.mobiledescription{
+  text-align: center;
+  display:block;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight:300;
+  line-height: 1.6em;
+  letter-spacing: .01rem;
+}
+
+.home-intro{
+  margin-top:10%;
+  padding: 5rem 6% 0% 6%;
+  position: relative;
+
+}
+
+.home-project{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  position: relative;
+  padding-top: 2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+
+
+
+
+.home-project-content .title{
+display:none;
+}
+
+
+
+.typeContainer {
+  	/* height: 100px; */
+    text-align: center;
+  	margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 300 !important;
+  }
+
+._primary-link{
+display:none;
+}
+.home-project-content > .type{
+display:none;
+}
+.text{
+display:none;
+}
+
 
   .page-banner{
         text-align: center;
@@ -1883,5 +1976,19 @@ body,
     right: -10%;
     bottom: -3%
 }
+
+._primary-link:before{
+  text-align:center;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin: 8px 0;
+  color: #005EFE;
+  font-weight: bolder;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
 
 /*# sourceMappingURL=styles.css.map */
