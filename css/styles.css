@@ -1244,12 +1244,12 @@ font-weight: 500;
 .home-project-preview.-desktop > .frame, .home-project-preview.-desktop > .frame-shadow{
   transform: translateX(-50%) scale(1.32);
   width: 100%;
-  top: 9%;
+  top: 0%;
 }
 
 .home-project-preview.-desktop > .screen {
     width: 100%;
-    transform: translateX(0%);
+transform: translateX(0%) translateY(-10%);
 }
 
 
@@ -1264,7 +1264,7 @@ display:none;
   letter-spacing:0.009em;
   font-size: 1em;
   line-height: 1.1;
-  /* text-align:center; */
+  text-align:center;
       color: #005EFE
 }
 
