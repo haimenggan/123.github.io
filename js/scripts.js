@@ -2,16 +2,16 @@
 
 console.log('Hi, I\'m Haimeng Gan. Welcome to my portfolio site!');
 
-// $(function () {
-//   $(window).scroll(function () {
-//     var position = $(document).scrollTop();
-//
-//     // for the header
-//     if (position > 100) {
-//       $('.site-header').addClass('-collapse');
-//     } else {
-//       $('.site-header').removeClass('-collapse');
-//     }
+$(function () {
+  $(window).scroll(function () {
+    var position = $(document).scrollTop();
+
+    // for the header
+    if (position > 100) {
+      $('.site-header').addClass('-collapse');
+    } else {
+      $('.site-header').removeClass('-collapse');
+    }
 
     // for the home banner
     var areaHeight = $('.flying-bg').outerHeight();

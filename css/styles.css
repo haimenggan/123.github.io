@@ -1285,7 +1285,7 @@ margin-bottom:0 !important;
 
 /*# sourceMappingURL=nav.css.map */
 .mobileBurger{
-display:block;
+display: inline;
 }
 body {
   /* background: #020304; */
