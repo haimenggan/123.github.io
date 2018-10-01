@@ -485,7 +485,7 @@ ul{
 /* ---------------- helper ---------------- */
 
 ._body-width{
-  width: 100%;
+  width: 90%;
   max-width: 1280px;
   padding: 0 60px;
   margin: 0 auto;
@@ -825,7 +825,8 @@ margin-bottom:0 !important;
 
 .home-project-preview > .frame-shadow{
   opacity: 0;
-  transition: opacity .5s ease
+  transition: opacity .5s ease;
+  z-index:-1;
 }
 
 .home-project-preview > .screen{
@@ -843,6 +844,7 @@ margin-bottom:0 !important;
 .screen{
   transform: translateX(13%);
   border: 1px solid #E8E8E8;
+    z-index:-1;
 }
 
 .mscreen{
@@ -850,6 +852,7 @@ margin-bottom:0 !important;
   border: 1px solid #E8E8E8;
   position: relative;
   width:42%;
+    z-index:1;
 }
 
 .home-project-preview.-desktop{
@@ -1272,6 +1275,37 @@ font-weight: 500;
   margin: 0 auto;
 }
 
+.home-project-preview.-desktop > .frame, .home-project-preview.-desktop > .frame-shadow{
+  /* transform: translateX(-55%) scale(1.32); */
+  width: 100%;
+  top: 0%;
+  z-index: -1;
+}
+
+.home-project-preview.-desktop > .frame,
+    .home-project-preview.-desktop > .frame-shadow{
+  -webkit-transform: translateX(-38%) scale(1.32);
+          transform: translateX(-14%) scale(1.32);
+  width: 70%;
+  top: 9%;
+  z-index:-1;
+}
+
+
+.screen {
+    transform: translateX(41%);
+    border: 1px solid #E8E8E8;
+    z-index: -1;
+      width: 70%;
+}
+
+.home-project-preview > .screen{
+  border: 1px solid #ddd;
+  position: relative;
+  z-index: 1
+}
+
+
 .home-intro{
   margin-top:20%;
   padding: 5rem 0% 0% 6%;
@@ -1279,7 +1313,7 @@ font-weight: 500;
 
 }
 .intro{
-    padding: 130px 0% 45% 13%;
+    padding: 130px 0% 45% 14%;
 }
 
 .typeContainer {
@@ -1295,21 +1329,14 @@ font-weight: 500;
     /* text-align: center; */
     display:block;
     font-family: 'Karla', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight:300;
-    line-height: 19px;
+    line-height: 23px;
     letter-spacing: .009rem;
     color:#696969;
   }
 
 
-
-.home-project-preview.-desktop > .frame, .home-project-preview.-desktop > .frame-shadow{
-  transform: translateX(-50%) scale(1.32);
-  width: 100%;
-  top: 0%;
-  z-index: 1;
-}
 
 .home-project-preview.-desktop > .screen {
     width: 100%;
