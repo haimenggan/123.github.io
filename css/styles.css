@@ -1266,11 +1266,43 @@ font-size: 16px;
 font-weight: 500;
 }
 ._body-width{
-  width: 90%;
+  width: 100%;
   max-width: 1280px;
   padding: 0 60px;
   margin: 0 auto;
 }
+
+.home-intro{
+  margin-top:20%;
+  padding: 5rem 0% 0% 6%;
+  position: relative;
+
+}
+.intro{
+    padding: 130px 0% 45% 13%;
+}
+
+.typeContainer {
+  	/* height: 100px; */
+    /* text-align: center; */
+    color:#005EFE;
+  	margin-bottom: 32px;
+    font-size: 12px!important;
+    letter-spacing: .04rem !important;
+  }
+
+  .mobiledescription{
+    /* text-align: center; */
+    display:block;
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    font-weight:300;
+    line-height: 19px;
+    letter-spacing: .009rem;
+    color:#696969;
+  }
+
+
 
 .home-project-preview.-desktop > .frame, .home-project-preview.-desktop > .frame-shadow{
   transform: translateX(-50%) scale(1.32);
@@ -1313,22 +1345,8 @@ display:none;
 display:none;
 }
 
-.mobiledescription{
-  text-align: center;
-  display:block;
-  font-family: 'Karla', sans-serif;
-  font-size: 20px;
-  font-weight:300;
-  line-height: 1.6em;
-  letter-spacing: .01rem;
-}
 
-.home-intro{
-  margin-top:10%;
-  padding: 5rem 6% 0% 6%;
-  position: relative;
 
-}
 
 .home-project{
   display: -webkit-box;
@@ -1343,23 +1361,10 @@ display:none;
   background-position: center
 }
 
-
-
-
-
 .home-project-content .title{
 display:none;
 }
 
-
-
-.typeContainer {
-  	/* height: 100px; */
-    text-align: center;
-  	margin-bottom: 1em;
-    font-size: 16px;
-    font-weight: 300 !important;
-  }
 
 ._primary-link{
 display:none;
@@ -1749,7 +1754,7 @@ body,
   }
 
   ._body-width{
-    padding: 0 16px;
+    padding: 0 0px;
   }
 
   img[src="../assets/credible_cosigner/xinno1.png"]{
