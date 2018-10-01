@@ -81,33 +81,13 @@ window.sr = ScrollReveal();
 sr.reveal('p',shortintro);
 sr.reveal('p2',shortintro);
 sr.reveal('h2', shortintro);
-sr.reveal('ul', shortintro);
-sr.reveal('nav', shortintro);
+// sr.reveal('ul', shortintro);
+// sr.reveal('nav', shortintro);
 sr.reveal('.imageL',articles1);
 sr.reveal('.imageR',articles1);
 sr.reveal('.projectIntroL',articles);
 sr.reveal('.projectIntroR',articles);
 
-
-$("#aboutmeButton").on('click', function(){
-   window.location = "index.html";
-});
-
-$("#ArtbytesButton").on('click', function(){
-   window.location = "artbytes.html";
-});
-$("#cynaButton").on('click', function(){
-   window.location = "cyna.html";
-});
-$("#ohSwapButton").on('click', function(){
-   window.location = "ohswap.html";
-});
-$("#octopusgardenButton").on('click', function(){
-   window.location = "octopusgarden.html";
-});
-$("#petborButton").on('click', function(){
-   window.location = "petbor.html";
-});
 
 
 $(document ).ready(function() {

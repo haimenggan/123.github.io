@@ -532,6 +532,7 @@ ul{
 
 /* ---------------- site header ---------------- */
 .header{
+  display: block;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -597,10 +598,11 @@ ul{
 }
 
 .site-header.-collapse{
+  /* display:block; */
   text-shadow: none;
   box-shadow: 0 0 5px #ddd;
   background: #fff
-} */
+}
 
 .site-header.-collapse > .container{
   padding: 8px 60px;
@@ -1270,22 +1272,16 @@ margin-bottom:0 !important;
   }
 
 @media screen and (max-width: 600px) {
-.site-nav > .item{
-font-size: 16px;
-font-weight: 500;
-}
+
 ._body-width{
   width: 100%;
   max-width: 1280px;
   padding: 0 60px;
   margin: 0 auto;
 }
-.site-header{
-
+.header{
   display:none;
 }
-
-
 
 /*# sourceMappingURL=nav.css.map */
 .mobileBurger{
