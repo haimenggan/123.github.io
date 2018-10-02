@@ -729,7 +729,6 @@ margin-bottom:0 !important;
 }
 
 
-
 .intro{
     padding: 15rem 0% 0% 0%;
 }
@@ -1287,6 +1286,22 @@ margin-bottom:0 !important;
 .header{
   display:none;
 }
+
+
+#rectangle {
+	width: 600px;
+	height: 225px;
+
+  background: rgb(239,240,252);
+  background: radial-gradient(circle, rgba(239,240,252,1) 0%, rgba(255,255,255,1) 0%, rgba(239,240,252,1) 99%);
+  z-index: -2;
+  display: block;
+  position: absolute;
+  transform:translateX(-20%);
+  top:5%;
+
+}
+
 
 .xinnoMobile{
   display: block;
