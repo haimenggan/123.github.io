@@ -1303,13 +1303,14 @@ margin-bottom:0 !important;
 
 .project1 {
 
-  z-index: -2;
+  z-index: -1s;
   display: block;
   position: absolute;
   transform:translateX(0%);
   top:5%;
 
 }
+
 #labtopText{
 display: none;
 }
