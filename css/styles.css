@@ -63,7 +63,7 @@ display:none;
 	/* height: 100px; */
 	margin-bottom: .2em;
   font-size: 2.3em;
-  margin-left:2%;
+  margin-left:0%;
 }
 
 .typed-cursor {
@@ -1524,9 +1524,11 @@ body input:checked ~ nav > ul > li {
   	/* height: 100px; */
     /* text-align: center; */
     /* color:#005EFE; */
+    margin-left:0%;
   	margin-bottom: 32px;
     font-size: 12px!important;
     letter-spacing: .04rem !important;
+    margin-left:2%;
   }
 
   .mobiledescription{
