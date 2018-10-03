@@ -36,6 +36,18 @@ a{
   cursor: pointer;
 }
 
+.icons{
+  display: none;
+
+}
+.icon{
+  margin: 0 5% 0 5%;
+  display: none;
+}
+
+#mobileContact{
+  display:none;
+}
 .project1{
     display: none;
 }
@@ -1307,13 +1319,46 @@ margin-top:30%;
 
 } */
 .site-footer {
-  margin: 10px 10px 30px;
+  margin: 0% 8% 5% 5%;
   text-align: center;
 }
+#mobileContact{
+  text-align: center;
+  display:block;
+  margin-top: 6%;
+   padding-bottom: 10%;
+  padding-top:40%;
+margin-bottom: 0;
+text-transform: uppercase;
+font-size: 18px ;
+font-weight:bolder;
+font-family:'Archivo', sans-serif;
 
+}
+
+.icons{
+  display: inline-block;
+      text-align: center;
+        margin: 0 10% 0 10%;
+
+}
+.icon{
+  margin: 0 5% 0 5%;
+  display: inline-block;
+  width: 7%;
+    max-width: 100%;
+    text-align: center;
+}
+
+#ft{
+text-align: center;
+font-weight: 300;
+letter-spacing: 0.02em;
+font-size:12px;
+}
 
 .site-footer > p{
-  margin: 250px 10px 5px;
+    margin: 0% 8% 0% 5%;
   text-align: center;
   font-size: 14px ;
 }
