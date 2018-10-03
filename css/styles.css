@@ -1318,6 +1318,19 @@ margin-bottom:0 !important;
 margin-top:30%;
 
 } */
+
+p {
+    font-family: 'Archivo', sans-serif;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 200;
+    width: 100%;
+    letter-spacing: 0.04em;
+    line-height: 1.6em;
+    hyphens: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
 .site-footer {
   margin: 0% 8% 5% 5%;
   text-align: center;
@@ -1951,6 +1964,9 @@ display:block;
   /* opacity: .25; */
 }
 
+
+
+
 .sub-section-title{
   font-family: 'Archivo', sans-serif;
   font-size: 20.8px;
@@ -2489,6 +2505,15 @@ display:none;  }
   text-transform: capitalize;
   font-size: 1.2em;
 }
-
+.section-titlee{
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.5rem;
+  color: #222;
+  text-align: left;
+  letter-spacing: .06em;
+  margin: 1.1em .5em 0em 0em;
+  padding-top:.6em;
+  font-weight: bolder;
+}
 
 /*# sourceMappingURL=styles.css.map */
