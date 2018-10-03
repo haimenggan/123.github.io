@@ -1392,9 +1392,12 @@ display: none;
 }
 
 #projectText{
-margin-top:19% !important;
+margin-top:16% !important;
 padding-top:30%;
-
+}
+#projectText2{
+margin-top:0% !important;
+padding-top:1%;
 }
 
 #labtopText{
