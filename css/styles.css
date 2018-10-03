@@ -1357,6 +1357,13 @@ letter-spacing: 0.02em;
 font-size:12px;
 }
 
+#email{
+text-align: center;
+font-weight: 300;
+letter-spacing: 0.02em;
+font-size:12px;
+}
+
 .site-footer > p{
     margin: 0% 8% 0% 5%;
   text-align: center;
