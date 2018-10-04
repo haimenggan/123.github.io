@@ -36,6 +36,18 @@ a{
   cursor: pointer;
 }
 
+
+
+#caseStudy1 .screenShot{
+width: 60%;
+height: auto;
+float:right;
+margin-top:.4em;
+margin-left:.02em;
+ /* border-radius: 5%; */
+shape-outside: margin-box;
+}
+
 .icons{
   display: none;
 
@@ -440,7 +452,8 @@ img[src="../assets/credible_cosigner/led2.png"]{
 }
 
 .column-content{
-  margin-right: 10%!important;
+  margin-left: -8%;
+  margin-right: 2%;
 }
 
 .unorderedList{
@@ -454,7 +467,7 @@ img[src="../assets/credible_cosigner/led2.png"]{
     flex-direction: column;
     align-items: center;
     color: #222222;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 ul{
@@ -1339,10 +1352,67 @@ margin-bottom:0 !important;
   margin: 0 auto;
 }
 
+.header{
+  margin-top: 23%;
+  display: block;
+    margin-left: 6%;
+    margin-right: auto;
+    padding: 0 60px;
+    padding: 0 1.5rem;
+}
+
+#caseStudy1 .screenShot{
+width: 100%;
+height: auto;
+float:right;
+margin-top:.4em;
+margin-left:.02em;
+ /* border-radius: 5%; */
+shape-outside: margin-box;
+}
+
+.column-content{
+  margin-left:-5%;
+  margin-right: 2% !important;
+}
+
+
+.unorderedList{
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.8em;
+    width: 100%;
+    padding: 2em;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    color: #222222;
+    font-size: 16px;
+}
+
+.unorderList{
+  font-family: 'Archivo', sans-serif;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing:.04em;
+  line-height: 1.8em;
+  margin-left: 5.4%;
+}
+
 /* .home-project-content{
 margin-top:30%;
 
 } */
+
+
+.page-banner > .bg{
+  text-align: center;
+  /* margin-left:-6%; */
+  width: 100%;
+  max-width: 2000px;
+  margin-bottom:15%;
+}
 
 p {
     font-family: 'Archivo', sans-serif;
@@ -1987,6 +2057,7 @@ display:block;
   text-align: left;
   letter-spacing: .02em;
   margin: 2em .5em .8em 0em;
+  text-transform: capitalize;
 }
 
 
