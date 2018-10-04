@@ -1322,11 +1322,11 @@ margin-top:30%;
 p {
     font-family: 'Archivo', sans-serif;
     color: #222222;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
     width: 100%;
     letter-spacing: 0.04em;
-    line-height: 1.6em;
+    line-height: 1.8em;
     hyphens: auto;
     -webkit-font-smoothing: antialiased;
 }
