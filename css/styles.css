@@ -36,6 +36,9 @@ a{
   cursor: pointer;
 }
 
+.inVision{
+text-align: center;
+}
 
 
 #caseStudy1 .screenShot{
@@ -335,7 +338,7 @@ p {
   width: 100%;
   letter-spacing:0.04em;
   line-height: 2em;
-  hyphens: auto;
+  hyphens: none;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -454,6 +457,9 @@ img[src="../assets/credible_cosigner/led2.png"]{
 .column-content{
   margin-left: -8%;
   margin-right: 2%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
 }
 
 .unorderedList{
@@ -1361,6 +1367,12 @@ margin-bottom:0 !important;
     padding: 0 1.5rem;
 }
 
+.inVision{
+text-align: left;
+width: 50%;
+height: auto;
+}
+
 #caseStudy1 .screenShot{
 width: 100%;
 height: auto;
@@ -1372,7 +1384,8 @@ shape-outside: margin-box;
 }
 
 .column-content{
-  margin-left:-5%;
+  overflow-wrap: break-word;
+  margin-left:0%;
   margin-right: 2% !important;
 }
 
@@ -1422,7 +1435,7 @@ p {
     width: 100%;
     letter-spacing: 0.04em;
     line-height: 1.8em;
-    hyphens: auto;
+    hyphens: none;
     -webkit-font-smoothing: antialiased;
 }
 
