@@ -371,28 +371,10 @@ video, img{
   letter-spacing: 0em;
   margin: 2em 0em 1em 0em;
   font-weight: bolder;
+  text-transform: capitalize;
 }
 
 
-.section-titlee{
-  font-family: 'Archivo', sans-serif;
-  font-size: 32px;
-  color: #222;
-  text-align: left;
-  letter-spacing: .06em;
-  margin: 1.8em .5em 0em 0em;
-  font-weight: bolder;
-}
-
-.section-titleee{
-  font-family: 'Archivo', sans-serif;
-  font-size: 32px;
-  color: #222;
-  text-align: left;
-  letter-spacing: .06em;
-  margin: .3em .5em 1em 0em;
-  font-weight: bolder;
-}
 
 img[src="../assets/credible_cosigner/xinno1.png"]{
   display: block;
@@ -455,7 +437,6 @@ img[src="../assets/credible_cosigner/led2.png"]{
 }
 
 .column-content{
-  margin-left: -8%;
   margin-right: 2%;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -2622,15 +2603,6 @@ display:none;  }
   text-transform: capitalize;
   font-size: 1.2em;
 }
-.section-titlee{
-  font-family: 'Archivo', sans-serif;
-  font-size: 1.5rem;
-  color: #222;
-  text-align: left;
-  letter-spacing: .06em;
-  margin: 1.1em .5em 0em 0em;
-  padding-top:.6em;
-  font-weight: bolder;
-}
+
 
 /*# sourceMappingURL=styles.css.map */
