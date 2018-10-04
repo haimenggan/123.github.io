@@ -1389,18 +1389,21 @@ font-family:'Archivo', sans-serif;
 }
 
 #ft{
+margin-top: 2%;
 text-align: center;
 font-weight: 300;
-letter-spacing: 0.02em;
-font-size:12px;
-padding-right:5%;
+letter-spacing: 0.005em;
+font-size:11px;
+margin-left:.9%;
 }
 
 #email{
+  margin-top: 3%;
 text-align: center;
 font-weight: 300;
-letter-spacing: 0.02em;
-font-size:12px;
+letter-spacing: 0.04em;
+font-size:15px;
+margin-left:2%;
 }
 
 .site-footer > p{
