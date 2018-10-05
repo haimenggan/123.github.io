@@ -35,6 +35,9 @@ a{
   transition: .2s opacity ease;
   cursor: pointer;
 }
+.about{
+margin-top:10%;
+}
 
 .inVision{
 text-align: center;
@@ -1338,7 +1341,9 @@ margin-bottom:0 !important;
   padding: 0 60px;
   margin: 0 auto;
 }
-
+.about{
+margin-top:30%;
+}
 .header{
   margin-top: 23%;
   display: block;
