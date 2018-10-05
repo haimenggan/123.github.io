@@ -1359,9 +1359,20 @@ margin-bottom:0 !important;
   padding: 0 60px;
   margin: 0 auto;
 }
+
 #about{
 margin-top:30%;
+width: 87%;
+height:auto;
 }
+
+#introduction{
+margin-left:6%;
+padding-right:6%;
+margin-top:0%;
+
+}
+
 .header{
   margin-top: 23%;
   display: block;
