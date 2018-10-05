@@ -36,7 +36,9 @@ a{
   cursor: pointer;
 }
 .about{
-margin-top:10%;
+margin-top:15%;
+width: 70%;
+height:auto;
 }
 
 .inVision{
