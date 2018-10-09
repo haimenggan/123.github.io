@@ -1422,7 +1422,7 @@ margin-bottom:0 !important;
    float: none;
   }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
 ._body-width{
   width: 100%;
@@ -2423,7 +2423,7 @@ body,
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
   /**************** header *****************/
   .site-header{
 display:none;  }
