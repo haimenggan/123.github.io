@@ -75,7 +75,7 @@ $(function () {
   $('.js-img-preview').click(function (e) {
     var imageURL = $(e.target).attr('src');
     $('.image-preview-container .image').css('background-image', 'url(' + imageURL + ')');
-    $('.image-preview-container').fadeIn(500);
+    $('.image-preview-container').fadeIn(200);
   });
   $('.image-preview-container').click(function (e) {
     $('.image-preview-container').fadeOut(500);
