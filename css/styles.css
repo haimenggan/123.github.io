@@ -35,7 +35,19 @@ a{
   transition: .2s opacity ease;
   cursor: pointer;
 }
+.lofi1{
+  margin-top:3%;
+  display: inline;
+    margin-right:2%;
+  width:49%;
+}
 
+.lofi2{
+  margin-top:3%;
+  float:right;
+  display: inline;
+  width: 49%;
+}
 
 #moodboard{
 margin-left: 10%;
