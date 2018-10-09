@@ -1431,6 +1431,13 @@ margin-bottom:0 !important;
   margin: 0 auto;
 }
 
+#moodboard{
+margin-left: 0%;
+margin-right: 0%;
+padding-left: 6%;
+padding-right: 10%;
+}
+
 #brandaudit{
   margin: 3% 10% 10% 3%;
   padding-left:2%;
