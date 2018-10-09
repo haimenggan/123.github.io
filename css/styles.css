@@ -1380,6 +1380,15 @@ margin-bottom:0 !important;
 }
 
 @media screen and (max-width: 1100px) {
+  .home-project-content .title{
+    font-size: 1em;
+  }
+
+  .home-project p{
+font-size: 16px;
+line-height: 1.7em;
+
+  }
   .draw-border:hover::before, .draw-border:hover::after {
     border-color: #fff;
     transition: border-color 0s, width 0.25s, height 0.25s;
