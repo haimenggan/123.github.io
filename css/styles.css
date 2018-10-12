@@ -803,6 +803,7 @@ ul{
   /* font-weight: bolder; */
   margin: 8px 20px;
   text-decoration: none;
+  color:#4B5974;
 }
 .site-nav > .item:hover {
     text-decoration: none;
