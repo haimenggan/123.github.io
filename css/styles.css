@@ -467,7 +467,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   width: 100%;
-  letter-spacing:0.04em;
+  letter-spacing:0.05em;
   line-height: 2em;
   -webkit-hyphens: auto;
  -ms-hyphens: auto;
@@ -1012,7 +1012,7 @@ margin-bottom:0 !important;
   margin-bottom: 9%;
   padding-bottom:15%;
   -webkit-box-flex: 1;
-  width: 30%;
+  width: 40%;
   margin-left: 10%;
   /* margin-right:5%; */
   padding: 9% 5% 8% 2%;
@@ -1669,12 +1669,12 @@ font-family: 'Lato', sans-serif;
 
 p {
 font-family: 'Lato', sans-serif;
-    color: #222222;
+    color: #464B52;
     font-size: 16px;
     font-weight: 300;
     width: 100%;
-    letter-spacing: 0.04em;
-    line-height: 1.8em;
+    letter-spacing: 0.03em;
+    line-height: 32px;
     hyphens: none;
     -webkit-font-smoothing: antialiased;
 }
