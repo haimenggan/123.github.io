@@ -25,8 +25,24 @@ html, body{
 @media (max-width: 2000px ) {
 .mobileTitle{
 display: none;
-
 }
+
+#categoryTitle3{
+  font-family: 'Lato', sans-serif;
+  display:block;
+  margin-top:2%;
+  text-transform:  uppercase;
+  font-weight:400;
+  color: grey;
+  font-size: 12px;
+}
+
+
+#whiteTitle{
+color: #4B5970;
+font-size: 4.5em;
+}
+
 
 #categoryTitle{
   font-family: 'Lato', sans-serif;
@@ -2070,8 +2086,8 @@ color: #445063;
 }
 
 #whiteTitle{
-color:white
-
+color:white;
+font-size: 18px;
 }
 
 #PL{
