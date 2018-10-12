@@ -1,5 +1,5 @@
   $(function(){
-      $("h1").typed({
+      $("h3").typed({
         strings: ["Hi^300, I'm Haimeng Gan.^1000"],
         typeSpeed:30,
         delay:500,
