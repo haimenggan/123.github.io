@@ -27,15 +27,15 @@ html, body{
 display: none;
 }
 
-.more{
+.moreaboutme{
   margin-top:10%;
-    padding-top:7%;
+    padding-top:10%;
 margin-left:12%;
-margin-bottom:20%;
+
 padding-bottom:10%;
 }
 
-.more p{
+.moreaboutme p{
   font-size:1em;
 color:#4B5970;
 
@@ -53,7 +53,7 @@ color:#4B5970;
 
 #whiteTitle{
 color: #4B5970;
-font-size: 4.5em;
+font-size: 4em;
 }
 
 
@@ -76,6 +76,37 @@ font-size: 4.5em;
   z-index: 0;
   width: 100%;
 }
+.chid{
+  display: inline;
+  position: absolute;
+  top:20%;
+  left: 0%;
+  right: 6px;
+  z-index: 1;
+  width: 100%;
+}
+
+.otb{
+  display: inline;
+  position: absolute;
+  top:20%;
+  left: 0%;
+  right: 6px;
+  z-index: 0;
+  width: 100%;
+}
+
+
+.git{
+  display: inline;
+  position: absolute;
+  top:30%;
+  left: 0%;
+  right: 6px;
+  z-index: 0;
+  width: 100%;
+}
+
 .home-project p{
 margin-top:10%;
 padding-top:3%;
@@ -954,15 +985,66 @@ margin-bottom:0 !important;
 }
 
 .home-project > div{
-  margin-top:6%;
-  margin-bottom: 20%;
+  margin-bottom: 9%;
+  padding-bottom:15%;
+  -webkit-box-flex: 1;
+  width: 40%;
+  margin-left: 10%;
+  /* margin-right:5%; */
+  padding: 23% 5% 8% 2%;
+  z-index:2;
+}
+
+#chid1{
+  margin-bottom: 17%;
+  margin-top: 3%;
+  padding-bottom:0%;
   -webkit-box-flex: 1;
   width: 30%;
   margin-left: 10%;
   /* margin-right:5%; */
-  padding: 30px 5px 16px 20px;
-  z-index:1;
+  padding: 11% 5% 0% 2%;
+  z-index:3;
 }
+
+ #xh{
+  margin-bottom: 9%;
+  padding-bottom:15%;
+  -webkit-box-flex: 1;
+  width: 30%;
+  margin-left: 10%;
+  /* margin-right:5%; */
+  padding: 9% 5% 8% 2%;
+  z-index:3;
+
+}
+
+
+#git1{
+  margin-bottom: 10%;
+  margin-top: 3%;
+  padding-bottom:0%;
+  -webkit-box-flex: 1;
+  width: 40%;
+  margin-left: 10%;
+  /* margin-right:5%; */
+  padding: 16% 5% 0% 2%;
+  z-index:3;
+}
+
+#clowd1{
+  margin-bottom: 13%;
+  margin-top: 3%;
+  padding-bottom:0%;
+  -webkit-box-flex: 1;
+  width: 30%;
+  margin-left: 10%;
+  /* margin-right:5%; */
+  padding: 23% 5% 0% 2%;
+  z-index:3;
+}
+
+
 
 .home-project p{
   font-size: 1em;
@@ -1490,10 +1572,7 @@ font-weight: 500;
   padding: 0 60px;
   margin: 0 auto;
 }
-.summit{
-display:none;
 
-}
 
 #moodboard{
 margin-left: 0%;
@@ -1577,10 +1656,6 @@ font-family: 'Lato', sans-serif;
   margin-left: 5.4%;
 }
 
-/* .home-project-content{
-margin-top:30%;
-
-} */
 
 
 .page-banner > .bg{
@@ -1653,17 +1728,6 @@ display: none;
   padding: 38px 20px 0px 20px;
 }
 
-/* #copyRight{
-  font-family: 'Lato', sans-serif;
-    color: #222222;
-    font-size: 13px;
-    font-weight: 400;
-    width: 100%;
-    letter-spacing: 0.04em;
-    line-height: 2em;
-    hyphens: auto;
-    -webkit-font-smoothing: antialiased;
-} */
 
 ._gilroy-title{
   font-family: 'Lato', sans-serif;
