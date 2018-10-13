@@ -1619,7 +1619,7 @@ font-weight: 500;
 }
 
 .intro{
-    padding: 8rem 0% 0% 24%;
+    padding: 10rem 0% 20% 24%;
     text-align: left;
 }
   /**************** header *****************/
@@ -2251,9 +2251,9 @@ transform: translateX(0%) translateY(-10%);
 transform: translateX(-15%) scale(.88);
 display: block;
 position: absolute;
-top: 15%;
+top: 5%;
 bottom: 0;
-height:40%;
+height:70%;
 width: 100%;
 /* left: 10%; */
 /* right: 0%; */
