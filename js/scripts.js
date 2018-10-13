@@ -8,9 +8,9 @@ $(function () {
 
     // for the header
     if (position > 100) {
-      $('.site-header').addClass('-collapse');
+      $('.menu--ama').addClass('-collapse');
     } else {
-      $('.site-header').removeClass('-collapse');
+      $('.menu--ama').removeClass('-collapse');
     }
 
     // for the home banner
@@ -108,5 +108,3 @@ function showSlides() {
 }
 var animationEndState = [{ x: -110, y: -200, scale: 3, rotate: 80 }, { x: 140, y: -200, scale: 3, rotate: 60 }, { x: -200, y: 300, scale: 3, rotate: -60 }, { x: 110, y: 200, scale: 3, rotate: 0 }, { x: -510, y: -300, scale: 2, rotate: 0 }, { x: -310, y: 0, scale: 2, rotate: 80 }, { x: 710, y: 200, scale: 2, rotate: -100 }, { x: 310, y: -100, scale: 2, rotate: -100 }];
 //# sourceMappingURL=scripts.js.map
-
-// current page site bar

@@ -801,7 +801,7 @@ ul{
     padding: 0 1.5rem;
 }
 
-.site-header{
+.menu--ama{
   position: fixed;
   top: 0;
   left: 0;
@@ -811,7 +811,7 @@ ul{
   transition: box-shadow .5s ease
 }
 
-.site-header > .container{
+.menu--ama > .container{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -834,97 +834,130 @@ ul{
   vertical-align: middle;
 }
 
-.site-nav{
-  font-family: 'Lato', sans-serif;
-  /* text-transform: uppercase; */
-  font-size: 1.1em;
-  letter-spacing: 0.2em;
-  font-weight: normal;
-  color:#444444;
+.content {
+background: white;
+
+z-index: 10;
+    }
+
+.menu--ama {
+  	font-family: 'Lato', sans-serif;
+	counter-reset: itemCounter;
+padding-left:70%;
+transform: translateX(0%);
+position: fixed;
+/* padding-left:75%; */
+padding-top:1.5%;
+padding-bottom:1.5%;
+left: 0;
+right: 0;
+z-index: 10;
+transition: box-shadow .5s ease
 }
 
-.site-nav > .item{
-  font-family: 'Lato', sans-serif;
-  display: inline-block;
-  font-size: .9em;
-  font-weight: normal;
-  letter-spacing: 0.013em;
-  /* font-weight: bolder; */
-  margin: 8px 20px;
-  text-decoration: none;
-  color:#4B5974;
+.menu--ama .menu__item {
+	font-family: 'Lato', sans-serif;
+	font-size: .9em;
+  display: inline;
+  position: relative;
+	font-weight: 500;
+	/* margin: 3em 0; */
+	padding-left: 0.5em;
+  	padding-right: 0.5em;
+	color: #4B5974;
+
 }
-.site-nav > .item:hover {
-    text-decoration: none;
-    opacity:1;
-    color:#ffe593;
+
+.menu--ama .menu__item:first-child {
+	--menu-item-color:#005EFE;
+}
+
+.menu--ama .menu__item:nth-child(2) {
+	--menu-item-color:#005EFE;
+}
+
+.menu--ama .menu__item:nth-child(3) {
+	--menu-item-color:#005EFE;
 }
 
 
-.site-header.-collapse{
+
+.menu--ama .menu__item::before {
+	/* content: counter(itemCounter,decimal-leading-zero); */
+	font-size: 0.85em;
+	font-weight: bold;
+	position: absolute;
+	right: 100%;
+	bottom: calc(100% - 0.35em);
+	counter-increment: itemCounter;
+	color: #ddd;
+}
+
+.menu--ama .menu__item:hover::before,
+.menu--ama .menu__item:focus::before {
+	color: var(--menu-item-color);
+}
+
+.menu--ama .menu__item-name {
+	font-size: 1.2em;
+	font-weight: 500;
+	/* display: flex;
+	/* flex-wrap: wrap; */
+	padding: 0.5em 1em 0 0;
+	white-space: pre;
+	/* text-transform: lowercase; */
+}
+
+.menu--ama .menu__item-name::before,
+.menu--ama .menu__item-name::after {
+	/* content: ''; */
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	width: 2.5em;
+	height: 4px;
+	background: #ddd;
+}
+
+.menu--ama .menu__item-name::after {
+	background: var(--menu-item-color);
+	transform: scale3d(0,1,1);
+	transform-origin: 0% 50%;
+	transition: transform 0.5s;
+}
+
+.menu--ama .menu__item:hover .menu__item-name::after,
+.menu--ama .menu__item:focus .menu__item-name::after {
+	transform: scale3d(1,1,1);
+}
+
+.menu--ama .menu__item-name span {
+	display: inline-block;
+}
+
+.menu--ama.-collapse{
   /* display:block; */
   text-shadow: none;
   box-shadow: 0 0 5px #ddd;
   background: #fff
 }
 
-.site-header.-collapse > .container{
+.menu--ama.-collapse > .container{
   padding: 8px 60px;
     padding: 10px 10px;
 }
 
-.site-header.-collapse > .container > .logo-link{
+.menu--ama.-collapse > .container > .logo-link{
   width: 30px;
 }
 
-/* ---------------- page banner -------------------- */
-
-.page-banner{
-    text-align: center;
-    position: relative;
-    padding: 80px 0px 0px 0px;
-}
-
-.page-banner > .bg{
-  width: 100%;
-  max-width: 2000px;
-}
-
-.page-banner > .content{
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  -webkit-transform: translate(0, 60%);
-          transform: translate(0, 60%);
-  margin: 0 auto;
-  padding: 60px 50px 20px;
-}
-
-.page-banner > .content > .small-title{
-  color: #005EFE;
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: .8em;
-  letter-spacing: 5px;
-}
-
-.page-banner > .content > .big-title{
-  text-transform: uppercase;
-  font-size: 2em;
-
-  font-weight: 400;
-}
-
-.page-banner > .content > .more{
-  font-size: .9em;
-  width:60%;
-}
 .more{
 width:100% !important;
 margin-top:1.5% !important;
 margin-bottom:0 !important;
 }
+
+
 .projectName{
   font-size: 2.5em;
   font-weight: 400;
@@ -1623,7 +1656,7 @@ font-weight: 500;
     text-align: left;
 }
   /**************** header *****************/
-  .site-header{
+  .menu--ama{
 display:none;  }
 
 .moreaboutme > .know{
@@ -2667,7 +2700,7 @@ display:block;
 }
 
 body,
-.site-header{
+.menu--ama{
   min-width: 300px;
   overflow-x: hidden;
 }
