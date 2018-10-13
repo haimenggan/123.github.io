@@ -76,10 +76,11 @@ font-size: 4em;
   z-index: 0;
   width: 100%;
 }
+
 .chid{
   display: inline;
   position: absolute;
-  top:20%;
+  top:35%;
   left: 0%;
   right: 6px;
   z-index: 1;
@@ -976,14 +977,9 @@ margin-bottom:0 !important;
   order: -1;
 }
 
-#projectOrder{
-  flex-flow: row-reverse;
-}
-
-
 .home-project:nth-child(even) > .home-project-content{
   -webkit-box-ordinal-group: 2;
-          order: 1;
+          /* order: 1; */
 }
 
 .home-project > div{
@@ -999,26 +995,25 @@ margin-bottom:0 !important;
 
 #chid1{
   margin-bottom: 17%;
-  margin-top: 3%;
+  margin-top: 8%;
   padding-bottom:0%;
   -webkit-box-flex: 1;
   width: 30%;
   margin-left: 10%;
   /* margin-right:5%; */
-  padding: 11% 5% 0% 2%;
+  padding: 16% 5% 0% 2%;
   z-index:3;
 }
 
  #xh{
-  margin-bottom: 9%;
-  padding-bottom:15%;
+  margin-bottom: 0%;
+  padding-bottom:0%;
   -webkit-box-flex: 1;
   width: 40%;
   margin-left: 10%;
   /* margin-right:5%; */
   padding: 9% 5% 8% 2%;
   z-index:3;
-
 }
 
 
@@ -1571,9 +1566,117 @@ font-weight: 500;
 ._body-width{
   width: 100%;
   max-width: 1280px;
-  padding: 0 60px;
+  padding: 0 0px;
   margin: 0 auto;
 }
+
+.intro{
+    padding: 8rem 0% 0% 26%;
+    text-align: left;
+}
+  /**************** header *****************/
+  .site-header{
+display:none;  }
+
+.summit{
+  display: none
+}
+
+.chid{
+display: none;
+}
+
+.otb{
+display: none;
+}
+
+.otb{
+display: none;
+}
+
+.git{
+display: none;
+}
+
+  img[src="../assets/credible_cosigner/xinno1.png"]{
+    display: block;
+    margin-left: 0px ;
+    width: 100%;
+  }
+
+  /**************** home *****************/
+  .home-project{
+    display: block;
+    width: 100%;
+  }
+  .home-project > div{
+    margin-bottom: 9%;
+    padding-bottom:15%;
+    -webkit-box-flex: 1;
+    width: 40%;
+    margin-left: 10%; */
+     margin-right:5%;
+    padding: 23% 5% 8% 2%;
+    z-index:2;
+  }
+
+
+  .home-project > div{
+    margin-top: 1%;
+    -webkit-box-flex: 1;
+            flex: 1 1 50%;
+    width: 40%;
+    padding: 0px 20px 0px 20px;
+  }
+
+  #chid1{
+    margin-bottom: 17%;
+    margin-top: 3%;
+    padding-bottom:0%;
+    -webkit-box-flex: 1;
+    width: 30%;
+    margin-left: 10%;
+    /* margin-right:5%; */
+    padding: 11% 5% 0% 2%;
+    z-index:3;
+  }
+
+   #xh{
+     margin-bottom: 17%;
+     margin-top: 3%;
+     padding-bottom:0%;
+     -webkit-box-flex: 1;
+     width: 30%;
+     margin-left: 10%;
+     /* margin-right:5%; */
+     padding: 11% 5% 0% 2%;
+     z-index:1;
+  }
+
+
+  #git1{
+    margin-bottom: 10%;
+    margin-top: 3%;
+    padding-bottom:0%;
+    -webkit-box-flex: 1;
+    width: 40%;
+    margin-left: 10%;
+    /* margin-right:5%; */
+    padding: 16% 5% 0% 2%;
+    z-index:3;
+  }
+
+  #clowd1{
+    margin-bottom: 13%;
+    margin-top: 3%;
+    padding-bottom:0%;
+    -webkit-box-flex: 1;
+    width: 30%;
+    margin-left: 10%;
+    /* margin-right:5%; */
+    padding: 23% 5% 0% 2%;
+    z-index:3;
+  }
 
 
 #moodboard{
@@ -1722,13 +1825,6 @@ margin-left:2.3%;
 display: none;
 }
 
-.home-project > div{
-  margin-top: 19%;
-  -webkit-box-flex: 1;
-          flex: 1 1 50%;
-  width: 40%;
-  padding: 38px 20px 0px 20px;
-}
 
 
 ._gilroy-title{
@@ -1799,7 +1895,6 @@ display: none;
   font-family: 'Lato', sans-serif;
   margin: 0;
   font-size: 15px;
-  color: white;
   margin-left:18%;
   width:77%;
   font-weight: 400;
@@ -2011,14 +2106,12 @@ body input:checked ~ nav > ul > li {
 
 
 .home-intro{
-  margin-top:20%;
-  padding: 5rem 0% 0% 6%;
+  margin-top:10%;
+  padding: 5rem 0% 10% 0%;
   position: relative;
 
 }
-.intro{
-    padding: 130px 0% 45% 14%;
-}
+
 
 .typeContainer {
   	/* height: 100px; */
@@ -2028,19 +2121,20 @@ body input:checked ~ nav > ul > li {
   	margin-bottom: 32px;
     font-size: 12px!important;
     letter-spacing: .04rem !important;
-    margin-left:2%;
+    margin-left:0%;
   }
 
   .mobiledescription{
     /* text-align: center; */
     font-family: 'Lato', sans-serif;
-    display:block;
+    display:contents;
     margin-left:2%;
     font-size: 14px;
     font-weight:400;
     line-height: 23px;
     letter-spacing: .009rem;
     color:#696969;
+    text-align:justify;
   }
 
 
@@ -2057,13 +2151,13 @@ transform: translateX(0%) translateY(-10%);
 }
 
 .flying-bg{
-transform: translateX(-37%) scale(.93);
+transform: translateX(-15%) scale(.88);
 display: block;
-/* position: absolute; */
-top: 10%;
+position: absolute;
+top: 15%;
 bottom: 0;
-height:90%;
-width: 150%;
+height:40%;
+width: 100%;
 /* left: 10%; */
 /* right: 0%; */
 z-index: -1;
@@ -2110,12 +2204,15 @@ font-size: 18px;
 letter-spacing: 0.06em;
 line-height: 1.4em;
 width:60%;
-font-family: 'Lato', sans-serif;
 color: #445063;
+margin-top:10%;
+margin-bottom:0%;
+padding-bottom: 0%;
+font-family: 'Lato', sans-serif;
 }
 
 #whiteTitle{
-color:white;
+color:#4B5970;
 font-size: 18px;
 }
 
@@ -2507,101 +2604,7 @@ body,
   }
 }
 
-@media screen and (max-width: 600px){
-  /**************** header *****************/
-  .site-header{
-display:none;  }
 
-  /* .site-header.-collapse > .container{
-    padding: 12px 0px 12px 12px;
-  } */
-  .site-nav > .item{
-    margin: 0 8px;
-    letter-spacing: .01em;
-  }
-  .logo-link{
-    width: 36px;
-  }
-
-  ._body-width{
-    padding: 0 0px;
-  }
-
-  img[src="../assets/credible_cosigner/xinno1.png"]{
-    display: block;
-    margin-left: 0px ;
-    width: 100%;
-  }
-
-  /**************** home *****************/
-  .home-project{
-    display: block
-  }
-  .home-project > div{
-    width: 100%;
-  }
-  .home-project-content{
-    -webkit-box-ordinal-group: 1 !important;
-            order: 0 !important;
-  }
-  .home-project-preview.-mobile,
-  .home-project-preview.-mobile:hover{
-    -webkit-transform: none !important;
-            transform: none !important;
-  }
-  .home-project-preview.-desktop,
-  .home-project-preview.-desktop:hover{
-    /* -webkit-transform: scale(1) !important;
-            transform: scale(1) !important; */
-  }
-
-  .home-contacts-container{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    -webkit-box-align: center;
-            align-items: center;
-            display:block;
-  }
-  .contact{
-  }
-  .contact #flag{
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-  }
-  .contact #mail{
-    -webkit-animation: mail alternate .8s ease-in-out infinite;
-            animation: mail alternate .8s ease-in-out infinite;
-  }
-  .contact #balloon{
-    -webkit-animation: floating alternate 1s ease-in-out infinite;
-            animation: floating alternate 1s ease-in-out infinite;
-  }
-  .contact .bubble{
-    opacity: 1;
-  }
-  .contact .dot1{
-    -webkit-animation: dot1 1s ease-in-out infinite;
-            animation: dot1 1s ease-in-out infinite;
-  }
-  .contact .dot2{
-    -webkit-animation: dot2 1s ease-in-out infinite;
-            animation: dot2 1s ease-in-out infinite;
-  }
-  .contact .dot3{
-    -webkit-animation: dot3 1s ease-in-out infinite;
-            animation: dot3 1s ease-in-out infinite;
-  }
-}
-@media screen and (max-width: 360px){
-  .site-nav{
-    text-align: right;
-  }
-  .site-nav > .item{
-    display: block;
-    margin: 6px 8px;
-  }
-}
 /**************** side work - prototypes *****************/
 @media screen and (max-width: 1000px){
   .side-container.-prototype{
