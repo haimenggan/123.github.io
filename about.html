@@ -11,11 +11,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script defer src="./js/scripts.js"></script>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+        $(function(){
+            $('a').each(function(){
+                if ($(this).prop('href') == window.location.href) {
+                  $(this).addClass('active'); $(this).parents('li').addClass('active');
+
+                }
+            });
+        });
+    </script>
+
   </head>
   <div class="content">
     <nav class="menu menu--ama"><a class="menu__item" href="index.html"><span class="menu__item-name">Projects</span></a>
       <a class="menu__item" href="sideworks.html"><span class="menu__item-name">Side works</span></a>
-      <a class="menu__item" target="_blank" href="about.html"><span class="menu__item-name">About me</span></a>
+      <a id="activatee" href="about.html"><span class="menu__item-name">About me</span></a>
     </nav>
   </div>
 <body>

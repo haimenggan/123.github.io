@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2017, Codrops
  * http://www.codrops.com
  */
@@ -36,3 +36,14 @@
 		navigate(linkEl);
 	});
 }
+// highlighted
+<script>
+		$(function(){
+				$('a').each(function(){
+						if ($(this).prop('href') == window.location.href) {
+							$(this).addClass('active'); $(this).parents('li').addClass('active');
+
+						}
+				});
+		});
+</script>

@@ -50,31 +50,31 @@
 				});
 			}, 50);
 
-			this.mouseleaveFn = () => {
-				clearTimeout(this.mouseTimeout);
-				if( !this.isActive ) return;
-				this.isActive = false;
-
-				anime.remove(this.DOM.nameLetters);
-				anime({
-					targets: this.DOM.nameLetters,
-					delay: (t,i,l) => (l-i-1)*20,
-					translateY: [
-						{value: (t,i) => i%2===0?-10:10, duration: duration, easing: 'easeInSine'},
-						{value: (t,i) => i%2===0?[10,0]:[-10,0], duration: duration+700, easing: 'easeOutElastic', elasticity: 600}
-					],
-					opacity: [
-						{value: 0, duration: duration, easing: 'linear'},
-						{value: 1, duration: duration, easing: 'linear'}
-					],
-					color: {
-						value: this.colors.initial,
-						duration: 1,
-						delay:(t,i,l) => (l-i-1)*20+duration,
-						easing: 'linear'
-					}
-				});
-			};
+			// this.mouseleaveFn = () => {
+			// 	clearTimeout(this.mouseTimeout);
+			// 	if( !this.isActive ) return;
+			// 	this.isActive = false;
+			//
+			// 	anime.remove(this.DOM.nameLetters);
+			// 	anime({
+			// 		targets: this.DOM.nameLetters,
+			// 		delay: (t,i,l) => (l-i-1)*20,
+			// 		translateY: [
+			// 			{value: (t,i) => i%2===0?-10:10, duration: duration, easing: 'easeInSine'},
+			// 			{value: (t,i) => i%2===0?[10,0]:[-10,0], duration: duration+700, easing: 'easeOutElastic', elasticity: 600}
+			// 		],
+			// 		opacity: [
+			// 			{value: 0, duration: duration, easing: 'linear'},
+			// 			{value: 1, duration: duration, easing: 'linear'}
+			// 		],
+			// 		color: {
+			// 			value: this.colors.initial,
+			// 			duration: 1,
+			// 			delay:(t,i,l) => (l-i-1)*20+duration,
+			// 			easing: 'linear'
+			// 		}
+			// 	});
+			// };
 
 			this.DOM.el.addEventListener('mouseenter', this.mouseenterFn);
 			this.DOM.el.addEventListener('touchstart', this.mouseenterFn);
@@ -85,5 +85,5 @@
 
 	items.forEach(item => new Item(item));
 
-	
+
 };
