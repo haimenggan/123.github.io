@@ -64,13 +64,13 @@ font-weight: bold;
 #otb1{
 transform:translateY(0%);
   margin-bottom: 19%;
-  margin-top: 15%;
+  margin-top: 13%;
   padding-bottom:0%;
   -webkit-box-flex: 1;
   width: 30%;
   margin-left: 10%;
   /* margin-right:5%; */
-  padding: 10% 5% 0% 0%;
+  padding: 8 % 5% 0% 0%;
   z-index:3;
 }
 
@@ -131,12 +131,13 @@ font-size: 4em;
   right: 6px;
   z-index: 1;
   width: 100%;
+  margin-bottom: 10%;
 }
 
 .otb{
   display: inline;
   position: absolute;
-  top:20%;
+  top:3%;
   left: 0%;
   right: 6px;
   z-index: 0;
@@ -159,7 +160,7 @@ font-size: 4em;
 .clowd{
   display: inline;
   position: absolute;
-  top:30%;
+  top:18%;
   left: 0%;
   right: 6px;
   z-index: 0;
@@ -1118,14 +1119,14 @@ margin-bottom:0 !important;
 
 
 #git1{
-  margin-bottom: 10%;
-  margin-top: 0%;
+  margin-bottom: 14%;
+  margin-top: 13%;
   padding-bottom:0%;
   -webkit-box-flex: 1;
   width: 40%;
   margin-left: 10%;
   /* margin-right:5%; */
-  padding: 10% 5% 0% 2%;
+  padding: 3% 5% 0% 2%;
   z-index:3;
 }
 
@@ -1137,7 +1138,7 @@ margin-bottom:0 !important;
   width: 30%;
   margin-left: 10%;
   /* margin-right:5%; */
-  padding: 24% 5% 0% 2%;
+  padding: 15% 5% 0% 2%;
   z-index:3;
 }
 
