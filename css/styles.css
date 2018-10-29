@@ -490,7 +490,7 @@ color:#005EFE;
 #email{
  font-family: 'lato', sans-serif;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;;
 letter-spacing: 0.02em;
 font-size: 13px;
 }
@@ -818,7 +818,7 @@ img[src="../assets/credible_cosigner/namebadges.png"]{
 }
 
 ul{
-      font-weight: 300;
+      font-weight: 400;;
 
 }
 
@@ -1314,6 +1314,7 @@ margin-bottom:0 !important;
 .home-project p{
   font-size: 1em;
   margin: 0;
+  font-weight: normal;
 }
 
 
@@ -2070,7 +2071,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto', sans-serif;
   color: #222222;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing:.04em;
   line-height: 1.8em;
   margin-left: 5.4%;
@@ -2090,7 +2091,7 @@ p {
 font-family: 'Roboto', sans-serif;
     color: #464B52;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
     letter-spacing: 0.03em;
     line-height: 32px;
@@ -2129,7 +2130,7 @@ font-family:'Archivo', sans-serif;
 #ft{
 text-align: center;
 margin-bottom: 5%;
-font-weight: 300;
+font-weight: 400;
 letter-spacing: 0.002em;
 font-size:12px;
 margin-left:2.3%;
@@ -2216,7 +2217,7 @@ display: none;
   width:77%;
   font-weight: 400;
   line-height: 1.4em;
-  /* font-weight: 300; */
+  /* font-weight: 400;; */
   display: block;
 word-wrap: break-word;
 margin-top:2%;
@@ -2311,7 +2312,7 @@ body h6 {
 body h6 > span {
   text-transform: none;
   opacity: 0.5;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
 }
 body input + label {
@@ -2557,7 +2558,7 @@ position: relative;
 z-index: 1;
 margin: 0 0 2% 15%;
 color: #005EFE;
-font-weight: 300;
+font-weight: 400;
 letter-spacing: 0.03em;
 text-transform: capitalize;
 font-size: 13px;
@@ -2572,7 +2573,7 @@ position: relative;
 z-index: 1;
 margin: 0 0 2% 0%;
 color: #005EFE;
-font-weight: 300;
+font-weight: 400;
 letter-spacing: 0.03em;
 text-transform: capitalize;
 font-size: 13px;
