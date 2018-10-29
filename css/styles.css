@@ -1,11 +1,17 @@
-
+font-family: 'lato', sans-serif;
 
 
 
 /* ---------------- load fonts ---------------- */
 @font-face {
-  font-family: 'Lato', sans-serif;
-  src: url(../assets/_font/Gilroy_ExtraBold.otf);
+  font-family: "Lato ";
+         src: url('698242188-Lato-Bla.eot');
+         src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+         url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+         url('698242188-Lato-Bla.woff') format('woff'),
+         url('698242188-Lato-Bla.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
 }
 /* ---------------- normalize ---------------- */
 *, *:after, *:before{
@@ -14,7 +20,7 @@
   box-sizing: border-box;
 }
 html, body{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   line-height: 1.6;
   color: #222;
   font-size: 16px;
@@ -23,9 +29,169 @@ html, body{
 
 }
 @media (max-width: 2000px ) {
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+      display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+
+
+
+.background1{
+background-color: #F8F8F8;
+
+}
+.siteMap{
+  width: 50%;
+}
+br {
+   display: block;
+   margin: 1.5em 0;
+}
+
+body h3 {
+font-family: 'Bentham', serif;
+font-size: 1.2em;
+color: #464B52;
+letter-spacing:0.02em;
+font-weight: bolder;
+}
+
+.overview{
+line-height: 1.6em;
+font-size: 15px;
+font-weight:400;
+color: #6E767F;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding-right: 5%;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr {
+    width: 70%;
+    margin: 5% 15% 5% 15%;
+}
+.toResearch{
+text-align: center;
+font-size: .7em;
+text-decoration: underline;
+
+}
+.challenges{
+margin-top: 3%;
+margin-bottom: 3%;
+font-size: 1.4em;
+letter-spacing:0.02em;
+line-height: 2em;
+/* font-weight: bold; */
+font-family: 'Bentham', serif;
+padding-right: 15%;
+padding-left: 15%;
+}
+
 body h5{
   font-weight: bold;
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
 text-align: center;
 color:#005EFE;
@@ -34,9 +200,9 @@ letter-spacing:0.1em;
 
 .smallTitle{
   font-weight: bold;
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
-color:#005EFE;
+color:#8123E5;
 letter-spacing:0.1em;
 text-transform: capitalize;
 
@@ -94,7 +260,7 @@ transform:translateY(0%);
 
 
 #categoryTitle3{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   display:block;
   margin-top:2%;
   text-transform:  uppercase;
@@ -110,7 +276,7 @@ font-size: 4em;
 
 
 #categoryTitle{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   display:block;
   margin-top:2%;
   text-transform:  uppercase;
@@ -120,7 +286,7 @@ font-size: 4em;
 }
 
 #categoryTitle5{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   display:block;
   margin-top:2%;
   text-transform:  uppercase;
@@ -322,7 +488,7 @@ color:#005EFE;
 }
 
 #email{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   text-align: center;
   font-weight: 300;
 letter-spacing: 0.02em;
@@ -454,7 +620,7 @@ font-family: "Lato", sans-serif;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   background-color:#F4AC90; width:100%; padding-top:15px; padding-bottom:15px;
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   font-size: 15pt;
 }
 
@@ -499,7 +665,7 @@ font-family: "Lato", sans-serif;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   background-color:#5C7EAD;width:100%; padding-top:15px; padding-bottom:15px;
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   font-size: 15pt;
 }
 
@@ -542,7 +708,7 @@ font-family: "Lato", sans-serif;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   color: #464B52;
   font-size: 16px;
   font-weight: 400;
@@ -572,18 +738,19 @@ video, img{
 }
 .-content-width{
       width:100%;
-      padding: 0 20%
+      padding: 0 12.3%
 }
 
 .section-title{
-  font-family: 'Lato', sans-serif;
-  font-size: 2em;
-  color: #222;
+  font-family: 'Bentham', serif;
+  font-size: 2.5em;
+  color: #8123E5;
   text-align: left;
-  letter-spacing: 0em;
+  letter-spacing: 0.02em;
   margin: 2em 0em 1em 0em;
   font-weight: bolder;
   text-transform: capitalize;
+  text-align: center;
 }
 
 
@@ -600,28 +767,9 @@ img[src="../assets/credible_cosigner/colorPalette.png"]{
   width: 100%;
 }
 
-img[src="../assets/credible_cosigner/signatureboard.png"]{
-  width: 100%;
-  padding-left: 8rem;
-  padding-right: 8rem;
 
-}
 
 img[src="../assets/credible_cosigner/namebadges.png"]{
-  width: 100%;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-bottom: 5%;
-}
-
-img[src="../assets/credible_cosigner/led1.png"]{
-  width: 100%;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-bottom: 5%;
-}
-
-img[src="../assets/credible_cosigner/led2.png"]{
   width: 100%;
   padding-left: 8rem;
   padding-right: 8rem;
@@ -656,7 +804,7 @@ img[src="../assets/credible_cosigner/led2.png"]{
 }
 
 .unorderedList{
-    font-family: 'Lato', sans-serif;
+   font-family: 'lato', sans-serif;
     font-weight: normal;
     letter-spacing: 0.04em;
     line-height: 2em;
@@ -675,7 +823,7 @@ ul{
 }
 
 .unorderList{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   color: #222222;
   font-size: 16px;
   font-weight: normal;
@@ -758,7 +906,7 @@ ul{
 
 
 ._gilroy-title{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   text-transform: uppercase;
   margin-top: 2%;
   letter-spacing: .02em;
@@ -861,7 +1009,7 @@ z-index: 10;
     }
 
 .menu--ama {
-  	font-family: 'Lato', sans-serif;
+  	font-family: 'Roboto', sans-serif;
 	counter-reset: itemCounter;
 padding-left:70%;
 transform: translateX(0%);
@@ -878,7 +1026,7 @@ transition: box-shadow .5s ease
 
 
 #activate{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
 	font-size: 17px;
   display: inline;
   position: relative;
@@ -891,7 +1039,7 @@ transition: box-shadow .5s ease
 }
 
 #activatee{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
 	font-size: 14px;
   display: inline;
   position: relative;
@@ -904,7 +1052,7 @@ transition: box-shadow .5s ease
 }
 
 #activateee{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
 	font-size: 14px;
   display: inline;
   position: relative;
@@ -918,7 +1066,7 @@ transition: box-shadow .5s ease
 
 
 .menu--ama .menu__item {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: .9em;
   display: inline;
   position: relative;
@@ -996,16 +1144,18 @@ margin-bottom:0 !important;
 
 
 .projectName{
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-weight: 400;
-  margin: 18% 0% 0% 0%;
-  color:#222222;
-  font-weight:bold;
-  font-stretch: semi-expanded;
+  margin: 8% 0% 0% 0%;
+  color:#4B5970;
+  letter-spacing: .01em;
+  /* font-weight:bold; */
+  /* font-stretch: semi-expanded; */
+  font-family: 'Bentham', serif;
 }
 
 .projectDescription{
-  font-size: 2em;
+  font-size: 1.1em;
   font-weight: 400;
   margin:0% 0% 0% 0%;
   color: #bababa;
@@ -1168,7 +1318,7 @@ margin-bottom:0 !important;
 
 
 .home-project-content > .type{
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: .7em;
   color: #444;
   letter-spacing: .03em;
@@ -1904,7 +2054,7 @@ shape-outside: margin-box;
 
 
 .unorderedList{
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
     letter-spacing: 0.04em;
     line-height: 1.8em;
     width: 100%;
@@ -1917,7 +2067,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .unorderList{
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   color: #222222;
   font-size: 16px;
   font-weight: 300;
@@ -1937,7 +2087,7 @@ font-family: 'Lato', sans-serif;
 }
 
 p {
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
     color: #464B52;
     font-size: 16px;
     font-weight: 300;
@@ -1993,7 +2143,7 @@ display: none;
 
 
 ._gilroy-title{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   text-transform: uppercase;
   letter-spacing: .02em;
 }
@@ -2059,7 +2209,7 @@ display: none;
 }
 
 #mobileTextW{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   margin: 0;
   font-size: 15px;
   margin-left:18%;
@@ -2074,7 +2224,7 @@ margin-top:2%;
 
 
 #mobileTextB{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   margin: 0;
   font-size: 14px;
   color: #222;
@@ -2087,7 +2237,7 @@ margin-top:2%;
 }
 
 #categoryTitle{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   display:block;
   margin-left:18%;
   text-transform:  uppercase;
@@ -2097,7 +2247,7 @@ margin-top:2%;
 }
 
 #categoryTitle3{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   display:block;
   margin-left:18%;
   text-transform:  uppercase;
@@ -2107,7 +2257,7 @@ margin-top:2%;
 }
 
 #categoryTitle5{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   display:block;
   margin-left:18%;
   text-transform:  uppercase;
@@ -2117,7 +2267,7 @@ margin-top:2%;
 }
 
 #categoryTitlee{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   display:block;
   margin-left:18%;
   margin-top:2%;
@@ -2304,7 +2454,7 @@ body input:checked ~ nav > ul > li {
 
   .mobiledescription{
     /* text-align: center; */
-    font-family: 'Lato', sans-serif;
+   font-family: 'lato', sans-serif;
     display:contents;
     margin-left:2%;
     font-size: 14px;
@@ -2386,7 +2536,7 @@ color: #445063;
 margin-top:10%;
 margin-bottom:0%;
 padding-bottom: 0%;
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 #whiteTitle{
@@ -2569,9 +2719,9 @@ display:block;
 /******************** font **************************/
 
 .section-title{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bentham', serif;
   font-size: 1.5rem;
-  color: #222;
+  color: #464B52;
   text-align: left;
   letter-spacing: .02em;
   margin: 2em .5em .8em 0em;
@@ -2580,7 +2730,7 @@ display:block;
 
 
 .section-title > p{
-  color: #222;
+  color: #464B52;
   font-size:2rem;
   font-weight: bolder;
   /* opacity: .25; */
@@ -2590,7 +2740,7 @@ display:block;
 
 
 .sub-section-title{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   font-size: 20.8px;
   font-size: 1.3rem;
   color: #222;
@@ -2695,7 +2845,7 @@ display:block;
 }
 
 .step-button > span{
-  font-family: 'Lato', sans-serif;
+ font-family: 'lato', sans-serif;
   position: absolute;
   color: #d8d8d8;
   font-size: 20.8px;
@@ -2703,7 +2853,7 @@ display:block;
 }
 
 .step-button > h3{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   color: #222222;
   font-size: 19.2px;
