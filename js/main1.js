@@ -42,7 +42,7 @@ $(window).on('scroll', function() {
 
 var articles = {
   duration:1200,
-  // rotate:{z:10},
+  rotate:{z:10},
   scale:0,
   opacity:0,
   reset: false
@@ -80,11 +80,11 @@ window.sr = ScrollReveal();
 // sr.reveal('article',articles);
 sr.reveal('p',shortintro);
 sr.reveal('p2',shortintro);
-sr.reveal('h2', shortintro);
-// sr.reveal('ul', shortintro);
+// sr.reveal('h2', shortintro);
+sr.reveal('ul', shortintro);
 // sr.reveal('nav', shortintro);
-sr.reveal('.imageL',articles1);
-sr.reveal('.imageR',articles1);
+sr.reveal('.img',articles1);
+sr.reveal('.image',articles1);
 sr.reveal('.projectIntroL',articles);
 sr.reveal('.projectIntroR',articles);
 
