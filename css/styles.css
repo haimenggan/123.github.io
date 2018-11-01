@@ -741,10 +741,10 @@ video, img{
 
 .section-title{
   font-family: 'Bentham', serif;
-  font-size: 2.5em;
+  font-size: 2.8em;
 color: #4B5970;
   text-align: left;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.005em;
   margin: 2em 0em 1em 0em;
   font-weight: normal;
   text-transform: capitalize;
