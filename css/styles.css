@@ -1025,13 +1025,13 @@ transition: box-shadow .5s ease
 
 #activate{
  font-family: 'lato', sans-serif;
-	font-size: 17px;
+	font-size:1.1em;
   display: inline;
   position: relative;
-	font-weight: 500;
+	font-weight: 300;
 	/* margin: 3em 0; */
 	/* padding-left: 0.5em; */
-  margin-right:.6em;
+  margin-right:.4em;
   	padding-right: 1.2em;
 	color: #005EFE;
 }
@@ -1068,7 +1068,7 @@ transition: box-shadow .5s ease
 	font-size: .9em;
   display: inline;
   position: relative;
-	font-weight: 500;
+	font-weight: 300;
 	/* margin: 3em 0; */
 	padding-left: 0.5em;
   	padding-right: 0.5em;
@@ -1101,8 +1101,8 @@ transition: box-shadow .5s ease
 
 
 .menu--ama .menu__item-name {
-	font-size: 1.2em;
-	font-weight: 500;
+	font-size: 1.1em;
+	font-weight: 300;
 	/* display: flex;
 	/* flex-wrap: wrap; */
 	padding: 0.5em 1em 0 0;
@@ -1117,7 +1117,7 @@ transition: box-shadow .5s ease
 
 .menu--ama.-collapse{
   text-shadow: none;
-  box-shadow: 0 0 5px #ddd;
+  /* box-shadow: 0 0 5px #ddd; */
   background: #fff
 }
 
