@@ -1025,7 +1025,7 @@ transition: box-shadow .5s ease
 
 #activate{
  font-family: 'lato', sans-serif;
-	font-size:1.1em;
+	font-size:.9em;
   display: inline;
   position: relative;
 	font-weight: 300;
@@ -1038,7 +1038,7 @@ transition: box-shadow .5s ease
 
 #activatee{
  font-family: 'lato', sans-serif;
-	font-size: 14px;
+	font-size: .9em;
   display: inline;
   position: relative;
 	font-weight: 500;
