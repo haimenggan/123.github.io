@@ -1790,9 +1790,12 @@ color: #4B5970;
   padding-bottom:2%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
 
+.home-project-content .title{
+  font-size: 4em;
 
+}
   .home-project p{
 font-size: 16px;
 line-height: 1.7em;
