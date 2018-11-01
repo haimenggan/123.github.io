@@ -1011,7 +1011,7 @@ z-index: 10;
 .menu--ama {
   	font-family: 'Roboto', sans-serif;
 	counter-reset: itemCounter;
-padding-left:70%;
+padding-left:65%;
 transform: translateX(0%);
 position: fixed;
 /* padding-left:75%; */
