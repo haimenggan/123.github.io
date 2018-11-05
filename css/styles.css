@@ -1854,6 +1854,25 @@ font-weight: 500;
   margin: 0 auto;
 }
 
+.overview{
+line-height: 1.6em;
+font-size: 15px;
+font-weight:400;
+color: #6E767F;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding-right: 5%;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .intro{
     padding: 10rem 0% 20% 24%;
     text-align: left;
