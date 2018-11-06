@@ -164,7 +164,7 @@ color: #6E767F;
 .column {
     float: left;
     width: 25%;
-    padding-right: 5%;
+   padding: 10px;
 }
 
 .row1:after {
@@ -1023,7 +1023,7 @@ z-index: 10;
 .menu--ama {
   	font-family: 'Roboto', sans-serif;
 	counter-reset: itemCounter;
-padding-left:65%;
+padding-left:75%;
 transform: translateX(0%);
 position: fixed;
 /* padding-left:75%; */
@@ -1863,8 +1863,8 @@ color: #6E767F;
 
 .column {
     float: left;
-    width: 45%;
-    padding-right: 5%;
+    width: 30%;
+    /* padding-right: 5%; */
 }
 
 .row1:after {
