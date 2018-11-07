@@ -773,7 +773,9 @@ video, img{
       width:100%;
       padding: 0 6% 0 6%;
 }
-
+.resume{
+  width:16%;
+}
 
 .section-title{
   font-family: 'Bentham', serif;
