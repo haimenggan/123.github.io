@@ -38,6 +38,28 @@ font-weight: 300;
 
 }
 
+.box.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin-top: 5%;
+  padding: .5rem;
+  height: 60px;
+}
+
+.box p {
+  max-width: 75px;
+  text-align: center;
+  /* background: rgba(255,255,255,0.5); */
+  margin: 0rem;
+  padding:0rem;
+}
+.social{
+width: 40%;
+height: auto;
+}
 
   /* Slideshow container */
   .slideshow-container {
@@ -230,9 +252,9 @@ transform: translateX(0px);
 }
 
 .moreaboutme{
-  margin-top:10%;
+  /* margin-top:10%;
     padding-top:10%;
-margin-left:12%;
+margin-left:12%; */
 line-height: normal;
 
 padding-bottom:10%;
