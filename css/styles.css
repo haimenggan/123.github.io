@@ -1,18 +1,16 @@
-font-family: 'lato', sans-serif;
+
 
 
 
 /* ---------------- load fonts ---------------- */
-@font-face {
-  font-family: "Lato ";
-         src: url('698242188-Lato-Bla.eot');
-         src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
-         url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
-         url('698242188-Lato-Bla.woff') format('woff'),
-         url('698242188-Lato-Bla.ttf') format('truetype');
-         font-weight: normal;
-         font-style: normal;
-}
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 /* ---------------- normalize ---------------- */
 *, *:after, *:before{
   margin: 0;
@@ -20,7 +18,7 @@ font-family: 'lato', sans-serif;
   box-sizing: border-box;
 }
 html, body{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   line-height: 1.6;
   color: #222;
   font-size: 16px;
@@ -288,7 +286,7 @@ transform:translateY(0%);
 
 
 #categoryTitle3{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   display:block;
   margin-top:2%;
   text-transform:  uppercase;
@@ -304,7 +302,7 @@ font-size: 4em;
 
 
 #categoryTitle{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   display:block;
   margin-top:2%;
   text-transform:  uppercase;
@@ -314,7 +312,7 @@ font-size: 4em;
 }
 
 #categoryTitle5{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   display:block;
   margin-top:2%;
   text-transform:  uppercase;
@@ -516,7 +514,7 @@ color:#005EFE;
 }
 
 #email{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   text-align: center;
   font-weight: 400;;
 letter-spacing: 0.02em;
@@ -648,7 +646,7 @@ font-family: "Lato", sans-serif;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   background-color:#F4AC90; width:100%; padding-top:15px; padding-bottom:15px;
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   font-size: 15pt;
 }
 
@@ -693,7 +691,7 @@ font-family: "Lato", sans-serif;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   background-color:#5C7EAD;width:100%; padding-top:15px; padding-bottom:15px;
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   font-size: 15pt;
 }
 
@@ -736,7 +734,7 @@ font-family: "Lato", sans-serif;
 }
 
 p {
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   color: #464B52;
   font-size: 16px;
   font-weight: 400;
@@ -840,7 +838,7 @@ img[src="../assets/credible_cosigner/namebadges.png"]{
 }
 
 .unorderedList{
-   font-family: 'lato', sans-serif;
+     font-family: 'LatoRegular';
     font-weight: normal;
     letter-spacing: 0.04em;
     line-height: 2em;
@@ -859,7 +857,7 @@ ul{
 }
 
 .unorderList{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   color: #464B52;
   font-size: 16px;
   font-weight: normal;
@@ -942,7 +940,7 @@ ul{
 
 
 ._gilroy-title{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   text-transform: uppercase;
   margin-top: 2%;
   letter-spacing: .02em;
@@ -1062,7 +1060,7 @@ transition: box-shadow .5s ease
 
 
 #activate{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
 	font-size:1.1em;
   display: inline;
   position: relative;
@@ -1075,7 +1073,7 @@ transition: box-shadow .5s ease
 }
 
 #activatee{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
 	font-size: 1em;
   display: inline;
   position: relative;
@@ -1088,7 +1086,7 @@ transition: box-shadow .5s ease
 }
 
 #activateee{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
 	font-size: .9em;
   display: inline;
   position: relative;
@@ -2202,7 +2200,7 @@ display: none;
 
 
 ._gilroy-title{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   text-transform: uppercase;
   letter-spacing: .02em;
 }
@@ -2268,7 +2266,7 @@ display: none;
 }
 
 #mobileTextW{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   margin: 0;
   font-size: 15px;
   margin-left:18%;
@@ -2283,7 +2281,7 @@ margin-top:2%;
 
 
 #mobileTextB{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   margin: 0;
   font-size: 14px;
   color: #222;
@@ -2296,7 +2294,7 @@ margin-top:2%;
 }
 
 #categoryTitle{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   display:block;
   margin-left:18%;
   text-transform:  uppercase;
@@ -2306,7 +2304,7 @@ margin-top:2%;
 }
 
 #categoryTitle3{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   display:block;
   margin-left:18%;
   text-transform:  uppercase;
@@ -2316,7 +2314,7 @@ margin-top:2%;
 }
 
 #categoryTitle5{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   display:block;
   margin-left:18%;
   text-transform:  uppercase;
@@ -2326,7 +2324,7 @@ margin-top:2%;
 }
 
 #categoryTitlee{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   display:block;
   margin-left:18%;
   margin-top:2%;
@@ -2513,7 +2511,7 @@ body input:checked ~ nav > ul > li {
 
   .mobiledescription{
     /* text-align: center; */
-   font-family: 'lato', sans-serif;
+     font-family: 'LatoRegular';
     display:contents;
     margin-left:2%;
     font-size: 14px;
@@ -2801,7 +2799,7 @@ display:block;
 
 
 .sub-section-title{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   font-size: 20.8px;
   font-size: 1.3rem;
   color: #222;
@@ -2906,7 +2904,7 @@ display:block;
 }
 
 .step-button > span{
- font-family: 'lato', sans-serif;
+   font-family: 'LatoRegular';
   position: absolute;
   color: #d8d8d8;
   font-size: 20.8px;
