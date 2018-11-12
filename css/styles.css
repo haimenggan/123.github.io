@@ -1871,6 +1871,12 @@ font-weight: 500;
 
 @media screen and (max-width: 600px) {
 
+  .column {
+      float: left;
+      width: 100%;
+     padding: 10px;
+  }
+
 ._body-width{
   width: 100%;
   max-width: 1280px;
@@ -1885,11 +1891,11 @@ font-weight:400;
 color: #6E767F;
 }
 
-.column {
+/* .column {
     float: left;
     width: 30%;
     /* padding-right: 5%; */
-}
+} */
 
 .row1:after {
     content: "";
@@ -1928,7 +1934,7 @@ transform: translateX(-136px);
 .moreaboutme{
   float: center;
   width: 60%;
-margin-top:40%;
+/* margin-top:40%; */
 padding-top:10%;
 margin-left:25%;
 padding-bottom:10%;
@@ -2023,7 +2029,7 @@ display: none;
      -webkit-box-flex: 1;
      width: 30%;
      margin-left: 7%;
-     padding: 15% 5% 20% 2%;
+     padding: 6% 5% 20% 2%;
      z-index:1;
   }
 
@@ -2034,9 +2040,9 @@ display: none;
     padding-bottom:0%;
     -webkit-box-flex: 1;
     width: 40%;
-    margin-left: 10%;
+    margin-left: 8%;
     /* margin-right:5%; */
-    padding: 16% 5% 0% 2%;
+    padding: 11% 5% 0% 2%;
     z-index:1;
   }
 
@@ -2046,7 +2052,7 @@ display: none;
     padding-bottom:0%;
     -webkit-box-flex: 1;
     width: 30%;
-    margin-left: 10%;
+    margin-left: 8%;
     /* margin-right:5%; */
     padding: 40% 5% 0% 2%;
     z-index:1;
@@ -2231,7 +2237,7 @@ display: none;
 }
 
 .project3 {
- margin-top:22%;
+ margin-top:18%;
   z-index: 1;
   display: block;
   position: absolute;
@@ -2247,7 +2253,7 @@ display: none;
 }
 .project5 {
   z-index: 1;
-  margin-top:33%;
+  margin-top:20%;
   display: block;
   position: absolute;
   transform:translateX(0%);
