@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="159px" height="31px" viewBox="0 0 159 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>hdpi/Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy" transform="translate(-2.000000, -9.000000)">
+            <text id="Thought" font-family="Seravek-BoldItalic, Seravek" font-size="34.824" font-style="italic" font-weight="bold" fill="#474C4D">
+                <tspan x="0.4492" y="32.3977777">Thoug</tspan>
+                <tspan x="96.633088" y="32.3977777" letter-spacing="-0.069648">h</tspan>
+                <tspan x="116.41312" y="32.3977777">t</tspan>
+            </text>
+            <text id="X" font-family="Seravek-BoldItalic, Seravek" font-size="34.824" font-style="italic" font-weight="bold" fill="#F87464">
+                <tspan x="133.423216" y="32.1191857">X</tspan>
+            </text>
+            <polygon id="Stroke-2" stroke="#F87464" stroke-width="0.25" points="157.622 9 151.318 9 145.712 15.999 142.438 9 136.797 9 142.16 20.073 132.2 32.192 138.503 32.192 144.527 24.879 148.08 32.192 153.895 32.192 148.045 20.562"></polygon>
+            <path d="M160.9,30.25 C160.9,31.493 159.892,32.5 158.65,32.5 C157.408,32.5 156.4,31.493 156.4,30.25 C156.4,29.007 157.408,28 158.65,28 C159.892,28 160.9,29.007 160.9,30.25" id="Fill-3" fill="#F87464"></path>
+        </g>
+    </g>
+</svg>
